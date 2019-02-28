@@ -1,10 +1,5 @@
-function greet(person) {
-  console.log(`Hello ${person.name}`);
-}
+import { gret, Person } from "./greet";
 
-const john = {
-  name: "John Connor",
-  age: 32
-};
+const john = new Person("John Connor", 32);
 
-greet(john);
+gret(john);
